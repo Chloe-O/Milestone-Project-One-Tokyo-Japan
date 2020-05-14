@@ -2,3 +2,12 @@
   letter-spacing: 3px;
   text-transform: uppercase;
 }
+
+/*--Jumbotron--*/
+
+.jumbotron-text-styling {
+}
+.jumbotron {
+  background-image: url("/assets/images/shibuya-crossing.jpg");
+  background-size: cover;
+}
