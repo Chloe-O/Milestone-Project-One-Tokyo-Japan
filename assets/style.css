@@ -10,3 +10,13 @@ header {
   letter-spacing: 3px;
   text-transform: uppercase;
 }
+
+/*-Jumbotron styling-*/
+
+.jumbotron {
+  background-color: transparent !important;
+}
+
+.jumbotron-divider {
+  width: 75px;
+}
