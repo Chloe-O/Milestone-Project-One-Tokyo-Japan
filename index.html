@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/assets/style.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -21,8 +22,8 @@
   <body>
     <!---header component-->
     <header>
-    <nav class="navbar navbar-expand-md">
-      <a href="/index.html" class="navbar-brand nav-text-styling">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <a href="/index.html" class="navbar-brand nav-title-styling">
         <i class="fas fa-plane"></i> Title
       </a>
       <button
@@ -42,7 +43,7 @@
       </div>
     </nav>
 <div class="jumbotron text-center">
-    <h1 class="display-4">Jumbotron heading</h1>
+    <h1 class="jumbotron-header">Jumbotron heading</h1>
     <p class="lead ">Jumbotron text</p>
     <hr class="jumbotron-divider">
     <p>Jumbotron paragraph</p>
@@ -52,17 +53,42 @@
     <!---/header component-->
 
       <!--Main section-->
-      <div class="row">
-        <div class="col-4">Row 1 col 1</div>
-        <div class="col-4">Row 1 col 2</div>
-        <div class="col-4">Row 1 col 3</div>
-      </div>
-      <div class="row">
-        <div class="col-4">Row 2 col 1</div>
-        <div class="col-4">Row 2 col 2</div>
-        <div class="col-4">Row 2 col 3</div>
-      </div>
+      <main class="container">
+
+<div class="row">
+  <div class="col-md-7">
+    <h2>Featurette Heading</h2>
+    <p>Featurette body</p>
+  </div>
+  <div class="col-md-5">
+    <img class="featurette-images" src="/assets/images/shibuya-crossing.jpg" alt="Shibuya crossing">
+  </div>
+</div>
+<hr class="featurette-divider"></hr>
+<div class="row">
+  <div class="col-md-7 order-md-2">
+    <h2>Featurette Heading</h2>
+    <p>Featurette body</p>
+  </div>
+  <div class="col-md-5">
+    <img class="featurette-images" src="/assets/images/shibuya-crossing.jpg" alt="Shibuya crossing">
+  </div>
+</div>
+<hr class="featurette-divider">
+</hr>
+<div class="row">
+  <div class="col-md-7">
+    <h2>Featurette Heading</h2>
+    <p>Featurette body</p>
+  </div>
+  <div class="col-md-5">
+    <img class="featurette-images" src="/assets/images/shibuya-crossing.jpg" alt="Shibuya crossing">
+  </div>
+</div>
+<hr class="featurette-divider">
+</hr>
     </div>
+    </main>
     <!--/Main section-->
     <!--Footer section-->
 

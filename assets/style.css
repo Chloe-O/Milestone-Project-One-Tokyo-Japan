@@ -1,3 +1,17 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/*-Navigation bar styling*/
+
+a.nav-title-styling {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/*-Navigation bar styling-*/
+
+/*-Header image styling-*/
+
 header {
   background-image: url(/assets/images/tokyo-skyline.jpg);
   height: 100vh;
@@ -6,10 +20,7 @@ header {
   background-position: center;
 }
 
-.nav-text-styling {
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
+/*-Header image styling-*/
 
 /*-Jumbotron styling-*/
 
@@ -17,6 +28,24 @@ header {
   background-color: transparent !important;
 }
 
+.jumbotron-header {
+  font-size: 60px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
 .jumbotron-divider {
   width: 75px;
 }
+
+/*-Jumbotron styling-*/
+
+/*Featurette Styling*/
+
+.featurette-images {
+  width: 350px;
+  height: 200px;
+}
+
+/*Featurette Styling*/
