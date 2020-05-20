@@ -67,6 +67,24 @@ header {
 }
 
 .feature-align h2 {
-  padding-top: 15px;
+  padding-top: 30px;
 }
 /*Feature Styling*/
+
+/*Footer styling*/
+
+footer {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  color: #343a4099;
+  text-align: center;
+}
+
+.footer-social-links a i {
+  color: #343a4099;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 25px;
+  padding: 0 10px;
+  text-align: center;
+}
