@@ -42,15 +42,18 @@ header {
 
 /*-Jumbotron styling-*/
 
-/*Featurette Styling*/
-
-.featurette {
-  padding: 20px 20px;
+.section-divider {
+  width: 200px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
-.feature-section {
+/*Feature Styling
+
+.feature-spacing {
   padding-top: 75px;
 }
+*/
 
 .feature-images {
   border-radius: 50%;
@@ -59,4 +62,11 @@ header {
   margin: auto;
 }
 
-/*Featurette Styling*/
+.feature-align {
+  text-align: center;
+}
+
+.feature-align h2 {
+  padding-top: 15px;
+}
+/*Feature Styling*/
