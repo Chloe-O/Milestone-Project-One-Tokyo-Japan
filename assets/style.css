@@ -88,3 +88,37 @@ footer {
   padding: 0 10px;
   text-align: center;
 }
+
+/*-Tablet and mobile  992px */
+
+@media screen and (max-width: 768px) {
+  .home-header {
+    background-image: url(/assets/images/Mt-fuji.jpg); /*test image*/
+    height: 100vh;
+    background-size: cover; 
+    background-attachment: scroll; /*stops image scrolling on mobile*/
+    background-position: center;
+  }
+
+  .jumbotron-header {
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+
+  }
+
+  .feature-align {
+  text-align: center;
+  padding-top: 30px;
+  }
+
+  .footer-social-links a i {
+  color: #343a4099;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 25px;
+  padding: 0 10px;
+  text-align: center;
+}
+}
