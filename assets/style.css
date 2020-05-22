@@ -72,6 +72,20 @@ a.nav-title-styling {
 }
 /*Feature Styling*/
 
+/*Main content styling*/
+
+.main-content-images {
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Main content styling*/
+
 /*Footer styling*/
 
 footer {
