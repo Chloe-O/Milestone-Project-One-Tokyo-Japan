@@ -104,6 +104,10 @@ footer {
   text-align: center;
 }
 
+.contact-form-container {
+  width: 600px;
+}
+
 /*-Tablet and mobile  992px */
 
 @media screen and (max-width: 768px) {

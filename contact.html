@@ -69,7 +69,48 @@
     <!---/header component-->
 
     <!--Main section-->
-    <main></main>
+    <main class="container contact-form-container">
+        <hr class="section-divider" />
+        <div class="row">
+            <div class="col-12">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto officia rerum, vero recusandae possimus veritatis sit deleniti officiis sunt praesentium? Please fill out the form below and we will be in touch as soon as possible.
+                </p>
+            </div>
+        </div>
+        <hr class="section-divider" />
+      <div class="row">
+        <div class="col-12">
+          <form>
+            <div class="form-group">
+              <label for="users-name">Your Name</label>
+              <input type="text" class="form-control" id="users-name" />
+            </div>
+            <div class="form-group">
+              <label for="email-address">Email Address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email-address"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="form-group">
+                <label for="users-query">Your Query</label>
+                <textarea class="form-control" id="users-query" rows="3"></textarea>
+            </div>
+            <div class="form-check py-3">
+                <input class="form-check-input" type="checkbox" value="" id="contact-checkbox">
+                <label class="form-check-label" for="contact-checkbox">
+                    Tick to receive newsletters 
+                </label>
+            </div>
+            <button type="submit" class="btn btn-outline-dark">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
     <!--/Main section-->
     <!--Footer section-->
     <footer class="container">
