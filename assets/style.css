@@ -70,6 +70,22 @@ a.nav-title-styling {
 .feature-align h2 {
   padding-top: 30px;
 }
+
+/* YouTube Video */
+
+.yt-video {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+
+.yt-video iframe {
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+}
+
 /*Feature Styling*/
 
 /*Main content styling*/
