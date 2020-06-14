@@ -66,11 +66,11 @@
     <!---/header and nav component-->
 
     <!--Main section-->
-    <main class="container contact-form-container">
+    <main class="container">
         <hr class="section-divider" />
         <div class="row">
             <div class="col-12">
-                <p>
+                <p class="text-center">
                     Please feel free to contact us using the form below if you would like any additional information or recommendations about the sites, food and transport of Tokyo or wider Japan. We look forward to hearing from you!
                 </p>
             </div>
@@ -78,7 +78,7 @@
         <hr class="section-divider" />
       <div class="row">
         <div class="col-12">
-          <form>
+          <form method="POST" action="https://formdump.codeinstitute.net/">
             <div class="form-group">
               <label for="users-name">Your Name</label>
               <input type="text" class="form-control" id="users-name" />
@@ -102,8 +102,9 @@
                     Tick to receive newsletters 
                 </label>
             </div>
-            <div class="submit-button"><button type="submit" class="btn btn-outline-dark btn-sm">Submit</button></div>
-            </div>
+            <!-- <div class="submit-button"><button type="submit" class="btn btn-outline-dark btn-sm">Submit</button></div>
+            </div> -->
+            <input type="submit" value="Submit">
           </form>
         </div>
             <hr class="section-divider" />
