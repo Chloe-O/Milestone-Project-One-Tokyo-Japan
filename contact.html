@@ -31,7 +31,11 @@
           <a href="/index.html" class="navbar-brand nav-title-styling">
             <i class="fas fa-mountain"></i>
           </a>
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarmenu">
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarmenu"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarmenu">
@@ -51,67 +55,82 @@
             </ul>
           </div>
         </nav>
-    
-                <div class="jumbotron text-center">
-                  <h1 class="jumbotron-header">Contact us</h1>
-                  <p class="lead">接触</p>
-                  <hr class="jumbotron-divider" />
-                  <p>Need more personalised recommendations for an upcoming trip?</p>
-                </div>
+
+        <div class="jumbotron text-center">
+          <h1 class="jumbotron-header">Contact us</h1>
+          <p class="lead">接触</p>
+          <hr class="jumbotron-divider" />
+          <p>Need more personalised recommendations for an upcoming trip?</p>
+        </div>
       </div>
     </header>
     <!---/header and nav component-->
 
     <!--Main section-->
     <main class="container">
-        <hr class="section-divider" />
-        <div class="row">
-            <div class="col-12">
-                <p class="text-center">
-                    Please feel free to contact us using the form below if you would like any additional information or recommendations about the sites, food and transport of Tokyo or wider Japan. We look forward to hearing from you!
-                </p>
-            </div>
-        </div>
-        <hr class="section-divider" />
+      <hr class="section-divider" />
       <div class="row">
         <div class="col-12">
-          <form method="POST" action="https://formdump.codeinstitute.net/">
+          <p class="text-center">
+            Please feel free to contact us using the form below if you would
+            like any additional information or recommendations about the sites,
+            food and transport of Tokyo or wider Japan. We look forward to
+            hearing from you!
+          </p>
+        </div>
+      </div>
+      <hr class="section-divider" />
+      <div class="row">
+        <div class="col-12">
+          <form
+            method="POST"
+            action="https://formdump.codeinstitute.net/"
+            target="_blank"
+          >
             <div class="form-group">
-              <label for="users-name">Your Name</label>
-              <input type="text" class="form-control" id="users-name" />
-            </div>
-            <div class="form-group">
-              <label for="email-address">Email Address</label>
+              <label for="yourname">Your Name</label>
               <input
-                type="email"
+                type="text"
                 class="form-control"
-                id="email-address"
-                aria-describedby="emailHelp"
+                id="yourname"
+                name="Your Name"
+                placeholder="What's your name?"
               />
             </div>
             <div class="form-group">
-                <label for="users-query">Your Query</label>
-                <textarea class="form-control" id="users-query" rows="3"></textarea>
+              <label for="emailaddress">Email Address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="emailaddress"
+                name="Email Address"
+                placeholder="What's your email address?"
+              />
             </div>
-            <div class="form-check py-3">
-                <input class="form-check-input" type="checkbox" value="" id="contact-checkbox">
-                <label class="form-check-label" for="contact-checkbox">
-                    Tick to receive newsletters 
-                </label>
+            <div class="form-group">
+              <label for="query">Your Questions</label>
+              <textarea
+                class="form-control"
+                id="query"
+                name="Questions"
+                placeholder="Enter your questions here"
+                rows="2"
+              ></textarea>
             </div>
-            <!-- <div class="submit-button"><button type="submit" class="btn btn-outline-dark btn-sm">Submit</button></div>
-            </div> -->
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" />
           </form>
         </div>
-            <hr class="section-divider" />
-            <div class="row">
-              <div class="col-sm-12">
-                <p class="text-center">
-                  <a class="badge badge-pill badge-secondary" href="#back-to-top">Back to the top</a>
-                </p>
-              </div>
-            </div>
+      </div>
+      <hr class="section-divider" />
+      <div class="row">
+        <div class="col-sm-12">
+          <p class="text-center">
+            <a class="badge badge-pill badge-secondary" href="#back-to-top"
+              >Back to the top</a
+            >
+          </p>
+        </div>
+      </div>
     </main>
     <!--/Main section-->
     <!--Footer section-->
