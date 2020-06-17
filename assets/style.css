@@ -13,7 +13,7 @@ a.nav-title-styling {
 /*-Header image styling-*/
 
 .home-header {
-  background-image: url(assets/images/tokyo-skyline-cropped.jpg);
+  background-image: url(assets/images/tokyo-skyline-cropped.jpg)
   height: 100vh;
   background-size: cover;
   background-attachment: fixed;
