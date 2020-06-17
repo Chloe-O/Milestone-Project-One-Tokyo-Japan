@@ -1,16 +1,5 @@
-#README File
+#Short Guide to Tokyo, Japan
 
-##Readme!
-
-Font Awesome
-Photos of my own
-Japan-guide.com
-W3 Schools
-Pixabay
-Sora News 24
-CSS tricks
-
-###Short Guide to Tokyo, Japan
 For the project I decided to write a short and concise guide to some of the food and sites in Tokyo, based on my own trip to the city.
 UX
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
@@ -28,7 +17,7 @@ The navigation bar offers links to each page, this is present on each page for e
 I have made use of ID’s on the Sites & Food pages so visitors can jump to a specific food or attraction without having to scroll, there are also ‘back to the top’ buttons at the bottom of these pages
 I have included a basic wireframe to show my idea for the site before building
 
-Features
+##Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 Existing Features
 Feature 1 - allows users X to achieve Y, by having them fill out Z
@@ -37,18 +26,21 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 Features Left to Implement
 Another feature idea
-Technologies Used
+
+##Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 JQuery
 The project uses JQuery to simplify DOM manipulation
 
-JavaScript
+-JavaScript
 Used by Bootstrap for
-Bootstrap
+-Bootstrap
 The project has been compiled with a mixture of CSS and Bootstrap
-Testing
+
+##Testing
 When testing the site, I utilised Google’s Developer Tools and looked at the responsiveness of the site across many mobile device sizes
-Deployment
+
+##Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
 Different values for environment variables (Heroku Config Vars)?
@@ -60,4 +52,16 @@ Content
 Content of the pages were largely comprised of my own opinions and experience, however I did make use of the Japan Guide website which is credited on the index page
 I have linked to websites such as the Tokyo Skytree or Sensoji site for example, these are hyperlinks within the content
 
-Media
+##Media
+The photos used in this site were obtained from Pixabay and Sora News 24
+Photo of Mt Fuji on the index and sites pages as well as the Jumbotron image are my own
+Further Credit
+Font Awesome - for icons used on the site
+Photos of my own - Mt. Fuji and Jumbotron Skyline photos
+Japan-guide.com - Site quoted on index page to include information about Tokyo as a city
+W3 Schools - used for guidance when creating my contact form
+Pixabay - Used for photos included in the site
+Sora News 24 - Used for photo of CoCo Curry
+Bootstrap - Used for general guidance when using classes and use of responsive iframe
+Acknowledgements
+My inspiration for this project came from my own love of Japanese culture and food along with the desire to create a minimal and clean space to share this
