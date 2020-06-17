@@ -3,6 +3,8 @@
 For the project I decided to write a short and concise guide to some of the food and sites in Tokyo, based on my own trip to the city.  
  [Link to my deployed site with GitHub Pages](http://chloe-o.github.io/ms-project-one)
 
+![Screenshot of Index Page](./assets/readme-media/indexpage.JPG)
+
 ---
 
 ## UX
