@@ -48,6 +48,26 @@ I deployed the site using GitHub pages, with help from [GitHub Pages's guide](ht
 
 ---
 
+## Testing
+
+- When testing the site, I utilised Google’s Developer Tools and looked at the responsiveness of the site across many mobile device sizes within the tool, aspect of the content stack upon one another when on smallers screen sizes with the images on the index pages getting slightly smaller when on mobile devices
+- I have tested the site using different browsers such as Google Chrome, Edge & Mozilla Firefox
+- After deployment, I viewed the site on a Huawei P20 Pro, Samsung S8 & Samsung Tab 3
+
+![View on Tablet](./assets/readme-media/sitesnippet.png)
+
+- When testing the site on tablet sized devices, I found that on the sites & food pages, where the margin between the text & image should be there is no gap. I was unable to resolve this
+- I ran the HTML & CSS for the site through respective validators, there were no issues with CSS
+
+![CSS Validator](./assets/readme-media/cssvalidated.jpg)
+
+- However, when validating the HTML of the pages, I got the following errors:
+  - The frameborder attribute on the iframe is obsolete. Use CSS instead > I did not alter this as had used Bootstrap's documentation for responsive videos, found [here](https://getbootstrap.com/docs/4.0/utilities/embed/)
+
+![Index Page HTML](./assets/readme-media/htmlvalidated.jpg)
+
+---
+
 ## Media
 
 - The photos used in this site were obtained from [Pixabay](https://pixabay.com/) and [Sora News 24](https://soranews24.com/) with any others being my own
