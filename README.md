@@ -59,12 +59,12 @@ I deployed the site using GitHub pages, with help from [GitHub Pages's guide](ht
 - When testing the site on tablet sized devices, I found that on the sites & food pages, where the margin between the text & image should be there is no gap. I was unable to resolve this
 - I ran the HTML & CSS for the site through respective validators, there were no issues with CSS
 
-![CSS Validator](./assets/readme-media/cssvalidated.jpg)
+![CSS Validator](./assets/readme-media/cssvalidated.JPG)
 
 - However, when validating the HTML of the pages, I got the following errors:
   - The frameborder attribute on the iframe is obsolete. Use CSS instead > I did not alter this as had used Bootstrap's documentation for responsive videos, found [here](https://getbootstrap.com/docs/4.0/utilities/embed/)
 
-![Index Page HTML](./assets/readme-media/htmlvalidated.jpg)
+![Index Page HTML](./assets/readme-media/htmlvalidated.JPG)
 
 ---
 
